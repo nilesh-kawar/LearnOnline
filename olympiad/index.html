@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Students Dashboard</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../common-files/css/style-common.css">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <!-- font Awesome  -->
+  <link rel="stylesheet" href="../common-files/css/font-awesome.min.css">
+  <!-- Bootstrap cdn -->
+  <link rel="stylesheet" href="../common-files/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navbar Start  -->
+  <div class="wrapper">
+    <nav class="mw-1600"> 
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      
+      <div class="content">
+        <div class="logo">
+          <a href="#"><img src="../common-files/images/logo.png" alt="" srcset="" width="200px"> </a>
+        </div>
+        
+        <ul class="links">
+          <div class="login-logout web-hide">
+            <li><a href="#" class="web-hide active">Logout</a></li>
+            <li><a href="#" class="web-hide">Sign Up</a></li>
+          </div>
+          <hr>
+          <div class="links-div">
+            <li><a href="../index.html">Dashboard</a></li>
+            <li class="active"><a href="../olympiad/index.html">Olympiad</a></li>
+            <li><a href="../announcement/index.html">Announcement</a></li>
+            <li><a href="../practice/index.html">Practice</a></li>
+            <li><a href="../order/index.html">Orders</a></li>
+            <li><a href="../announcement/index.html">Pricing</a></li>
+          </div>
+        </ul>
+        <div class="login">
+          <a href="#" class="active">Logout</a>
+          <a href="#">Sign Up</a>
+        </div>
+      </div>
+      <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+    </nav>
+  </div> 
+  <!-- Navbar End  -->
+
+  <!-- Olympiad Start -->
+  <div class="olympiad-page ds o-bordered">
+    <div class="container-fluid mw-1300">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 ">
+          <div class="olympiad-grade">
+            <div class="Oval">
+              <p class="grade">Grade</p>
+              <p class="number">8</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8">
+          <div class="olympiad-main-text text-center">
+            <h1>Olympiad</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. 
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 text-center">
+          <div class="olympiad-icon">
+            <img src="../common-files/images/olympiad/olympiad-icon-big.png" class="img-fluid" alt="Olympiad Icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Olympiad End  -->  
+
+  <!-- Slider Starts -->  
+  <div class="olympiad-slider container-fl mw-1300 relative">
+    <div id="olympiadSlider" class="carousel slide" data-ride="carousel">
+        <div class="blob-olymp">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slider-row">
+              <div class="column1">
+                <img src="../common-files/images/olympiad/slider-laptop.png" alt="" class="img-fluid">
+              </div>
+              <div class="column2">
+                <h1>Technical</h1>
+                <h2>Requirements</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. </p>
+                <a href="#"><button class="">View More</button></a>
+              </div>
+              <div class="share-icon">
+                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+              </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slider-row">
+              <div class="column1">
+                <img src="../common-files/images/olympiad/slider-laptop.png" alt="" class="img-fluid">
+              </div>
+              <div class="column2">
+                <div class="in">
+                  <h1>Technical</h1>
+                <h2>Requirements</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. </p>
+                <a href="#"><button class="">View More</button></a>
+                </div>
+                
+              </div>
+              <div class="share-icon">
+                <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <a class="carousel-control-prev"  href="#olympiadSlider" role="button"  data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next"  href="#olympiadSlider" role="button"  data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- slider Ends  -->
+
+  <!-- Hall of Fame Starts  -->
+  <div class="hall-of-fame ">
+    <div class="heading">
+      <div class="container-fl mw-1300">
+        <h1>Hall of fame</h1>
+      </div>
+    </div>
+
+    <div class="hall-of-fame-subject">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-12">
+            <h5>Subject</h5>
+          </div>
+
+          <div class="col-lg-10 col-md-10 col-12">
+            <div class="hall-of-fame-profile">
+              <div class="profile-div">
+                <div class="img">
+                  <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                </div>
+                <div class="details">
+                  <p class="title">Lorem </p>
+                  <p class="description">Lorem Ispum Lorem Ispum</p>
+                </div>
+                
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hall-of-fame-rank">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-12">
+            <h5>Rank</h5>
+          </div>
+
+          <div class="col-lg-10 col-md-10 col-12">
+            <div class="hall-of-fame-profile">
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hall-of-fame-topper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-12">
+            <h5>Topper</h5>
+          </div>
+
+          <div class="col-lg-10 col-md-10 col-12">
+            <div class="hall-of-fame-profile">
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+              <div class="profile-div">
+                <img src="../common-files/images/olympiad/hof-profile.jpg" class="img-fluid" alt="Hall of Fame Profile">
+                <p class="title">Lorem Ispum</p>
+                <p class="description">Lorem Ispum Lorem Ispum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hall of Fame Ends  -->
+
+  <!-- Enrolment Result Schedule Starts -->
+  <div class="enrolment-schedule-result relative">
+    <div class="blob-olymp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="esr-inner-div">
+              <h2>Enrolment</h2>
+              <div class="row">
+                <div class="col-6">
+                  <p class="e-total">Total</p>
+                </div>
+                <div class="col-6">
+                  <p class="e-total-num">1189</p>
+                </div>
+              </div> 
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="esr-inner-div">
+              <h2>Schedule</h2>
+              <div class="row">
+                <div class="col-4">
+                  <p class="r-year">Year</p>
+                </div>
+                <div class="col-8 rync">
+                  <p class="r-year-num">2020-2021</p>
+                </div>
+              </div> 
+              <img src="../common-files/images/olympiad/olympic_rings.png" alt="Olympic Rings">
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="esr-inner-div light">
+              <h2>See Results with</h2>
+              <div class="r-links">
+                <h6><a href="#"> Login </a></h6>
+                <h6><a href="#">Email ID</a></h6>
+                <h6><a href="#">Registration Number</a></h6>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Enrolment Result Schedule Starts -->
+
+  <!-- Sample Test Starts  -->
+  <div class="sample-test">
+    <div class="container">
+      <div class="heading">
+        <h1>Sample Test</h1>
+      </div>
+      <div class="sample-test-content">
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Sample Test Ends  -->
+
+  <!-- About Olympiad Starts  -->
+  <div class=" relative abt-olympiad">
+    <div class="blob-olymp">
+      <div class="container about-olympiad">
+        <div class="heading">
+          <h6>About Olympiad</h6>
+        </div>
+        <div class="about-olympiad-content">
+          <h5>Test Format</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas </p>
+  
+          <h5>How the test will be conducted</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas </p>
+  
+          <h5>Technical requirements</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas </p>
+  
+          <h5>Eligibility</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas </p>
+  
+          <h5>Frequency</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas </p>
+  
+          <h5>Scoring rules</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas </p>
+  
+          <h5>Result format</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas </p>
+  
+          <h5>Help and Support</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- About Olympiad Ends  -->
+
+  <!-- Footer Starts -->
+  <section class="footer">
+    <div class="container-fluid mw-1600">
+      <div class="footer-flex">
+        <div class="footer-inner-flex">
+          <div class="caf_section">
+              <p><a href="#"> About Us </a></p>
+              <p><a href="#"> Contact Us </a></p>
+              <p><a href="#"> FAQ </a></p>
+          </div>
+
+          <div class="pt_section">
+              <p> <a href="#"> Privacy Policy</a></p>
+              <p> <a href="#"> Terms Of use</a></p>
+          </div>
+
+          <div class="app_section">
+            <div class="android-ios">
+              <div class="android">
+                <a href="#"><img src="../common-files/images/footer/google.png" alt="Play Store"></a>
+              </div>
+              <div class="ios">
+                <a href="#"><img src="../common-files/images/footer/apple-store.png" alt="App Store"></a>
+              </div>
+            </div>
+            <div class="social-media">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="copyright">
+        <p>Copyright Statement</p>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Ends -->
+
+  <script src="../common-files/js/jquery.min.js"></script>
+  <script src="../common-files/js/popper.min.js"></script>
+  <script src="../common-files/js/bootstrap.min.js"></script>
+</body>
+</html>
